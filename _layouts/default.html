@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="de-AT">
+<head>
+	<meta charset="utf-8">
+
+	<title>{% if page.title %} {{ page.title }} | {% endif %}{{ site.name }}</title>
+
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/foundation.min.css" />	
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+	{{ content }}
+	
+	<!-- Piwik -->
+	<script type="text/javascript">
+	  var _paq = _paq || [];
+	  _paq.push(["trackPageView"]);
+	  _paq.push(["enableLinkTracking"]);
+	
+	  (function() {
+	    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://tools.madcity.at/piwik/";
+	    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+	    _paq.push(["setSiteId", "10"]);
+	    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+	    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+	<!-- End Piwik Code -->
+</body>
+</html>

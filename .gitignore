@@ -19,3 +19,7 @@ Icon
 *.tmproj
 *.tmproject
 tmtags
+
+
+### Jekyll ###
+_site/

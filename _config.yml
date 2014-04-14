@@ -1,0 +1,6 @@
+name: Creative Code Graz
+url: http://creativecode.at/
+
+#### Under the Hood Stuff #####
+
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, node_modules]
