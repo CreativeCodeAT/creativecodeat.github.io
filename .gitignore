@@ -23,3 +23,5 @@ tmtags
 
 ### Jekyll ###
 _site/
+Gemfile
+Gemfile.lock
