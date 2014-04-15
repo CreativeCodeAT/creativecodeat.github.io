@@ -1,0 +1,9 @@
+<nav class="main row">
+    <ul class="large-12 columns">
+        {% for p in site.pages %}
+        <li>
+        	<a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
