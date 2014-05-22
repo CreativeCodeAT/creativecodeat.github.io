@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>{% if page.title %} {{ page.title }} | {% endif %}{{ site.name }}</title>
+	<title>{% if page.title %} {{ page.title }} ~ {% endif %}{{ site.name }}</title>
 
 	<link rel="stylesheet" href="/css/normalize.css" />
 	<link rel="stylesheet" href="/css/foundation.min.css" />	
@@ -13,11 +13,13 @@
 
 <body>
 	{% include header.html %}
-	
+	{% include nav.html %}
+
 	{{ content }}
 	
 	{% include footer.html %}
-	
+	<script src="/js/p5.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/application.js" type="text/javascript" charset="utf-8"></script>
 	<!-- Piwik -->
 	<script type="text/javascript">
 	  var _paq = _paq || [];

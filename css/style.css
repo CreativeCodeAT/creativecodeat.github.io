@@ -24,8 +24,39 @@ a:hover {
 
 header.main {
 	margin-bottom: 40px;
+	background:rgba(200, 255, 255, 0.8);
+}
+
+nav.main {
+	background:rgba(200, 255, 255, 0.8);
+}
+
+nav.main ul {
+	list-style: none;
+	padding:5px;
+	margin:0 15px;
+}
+
+nav.main li {
+	float:left;
+	padding:0;
+	margin-right:10px;
+}
+
+.content {
+	background:rgba(200, 255, 255, 0.8);
 }
 
 footer.main {
 	margin-top: 40px;
+	background:rgba(200, 255, 255, 0.8);
+}
+
+
+
+#background {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:-1;
 }
